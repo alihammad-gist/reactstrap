@@ -1,9 +1,7 @@
 /// <reference types="react" />
 
-import { Color } from '../index'
-
 interface Props {
-  color?: Color
+  color?: string
   pill?: boolean
   tag?: React.ReactType
   className?: string

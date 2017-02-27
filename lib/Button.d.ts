@@ -10,7 +10,7 @@ interface Props extends React.HTMLProps<HTMLButtonElement> {
   tag?: React.ReactType
 
   onClick?: React.MouseEventHandler<any>
-  size?: string
+  size?: any
   id?: string
   style?: React.CSSProperties
 }

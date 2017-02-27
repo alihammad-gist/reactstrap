@@ -29,7 +29,7 @@ type InputType =
 
 interface Props extends React.ChangeTargetHTMLProps<HTMLInputElement> {
   type?: InputType
-  size?: string
+  size?: any
   state?: string
   tag?: React.ReactType
   static?: boolean
